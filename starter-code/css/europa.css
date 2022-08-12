@@ -43,6 +43,16 @@
     font-family: 'Barlow Condensed', sans-serif;
 }
 
+
+nav ul li:nth-child(1){
+    border-bottom: 0px solid #fff;
+}
+
+
+nav ul li:nth-child(2){
+    border-bottom: 3px solid #fff;
+}
+
 .destination-picker h3{
     opacity: 0.25;
     letter-spacing: 4.72px;
