@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(15, 18, 28);
+    height: 100vh;
+    display: flex;
+}
+
+
+.bg-image{
+    z-index: -100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    left: 590px;
+    position: absolute;
+    top: 27px;
+    backdrop-filter: blur(20px);
+    width: 830px;
+    height: 96px;
+} 
+
+.logo{
+    position: absolute;
+    left: 55px;
+    top: 55px;
+}
+
+nav ul li h3{
+    display: inline-block;
+    font-weight: 600;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #fff;
+    margin-right: 5px;
+}
+
+nav ul li{
+    padding-top: 36px;
+    display: inline-block;
+    margin:0 50px;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.text-container{
+    position: absolute;
+    top: 53%;
+    left: 10%;
+    width: 31%;
+    height: 100%;
+}
+
+.circle-explore{
+    position: absolute;
+    display: flex;
+    left: 1001px;
+    top: 400px;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    border-radius: 50%;
+    background: #fff;
+    font-size: 30px;
+    font-family: 'Bellefair', sans-serif;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+
+
+.circle-explore img{
+    transform: scale(0.0001);
+    transition: 1s;
+    opacity: 0;
+}
+
+.circle-explore h2{
+    z-index: 12;
+    color: #000;
+    transition: 1s ease-in;
+}
+
+.circle-explore h3{
+    font-size: 20px;
+    opacity: 0;
+}
+
+.circle-explore:hover img{
+    transform: scale(1);
+    opacity: 1;
+}
+
+.circle-explore:hover h3{
+    font-size: 30px;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+.text-container h2{
+    font-weight: 100;
+    font-size: 28px;
+    letter-spacing: 4.72px;
+    color: #D0D6F9;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.text-container h1{
+    font-size: 150px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Bellefair', sans-serif;
+}
+
+.text-container p{
+    font-weight: 300;
+    color: #D0D6F9;
+    font-size: 18px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.border{
+    opacity: 0.25;
+    position: absolute;
+    width: 473px;
+    height: 1px;
+    background: #D0D6F9;
+    top: 75px;
+    left: 167px;
+    z-index: 1;
+}
+
+.margin-container {
+    margin-left: 100px;
+}
